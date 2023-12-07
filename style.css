@@ -1,0 +1,41 @@
+body {
+    background-image: url(background4.gif);
+    background-size: cover;
+}
+
+.buttonnoise {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.buttonnoise:hover {
+    width: 80px;
+    border-radius: 30px;
+}
+
+.buttonnoise span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: transparent;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.buttonnoise:hover span {
+    color: white;
+}
